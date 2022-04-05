@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "category": "Laptop",
+        "name": "John Smith",
+        "product": "Acer Aspire 10",
+        "brand": "Acer",
+        "review": "5.00 out of 5.00",
+        "comment": "This is DOPE. The Lowbudget Flagship killer",
+        "img": "https://i.ibb.co/rckHdHZ/john.jpg"
+    },
+    {
+        "id": 2,
+        "category": "VivoBook",
+        "name": "Antonio Alfanso",
+        "product": "Asus VivoBook 15",
+        "brand": "Asus",
+        "review": "4.5 out of 5.00",
+        "comment": "Very Good laptop in this price range WORTHY",
+        "img": "https://i.ibb.co/r0R46sp/antonio.png"
+    },
+    {
+        "id": 3,
+        "category": "Notebook",
+        "name": "Lubiana Kepaou ",
+        "product": "Dell Inspiron 14",
+        "brand": "Dell",
+        "review": "4.0 out of 5.00",
+        "comment": "This laptop is Amazing",
+        "img": "https://i.ibb.co/5rK7kF0/Lubiana.jpg"
+    },
+    {
+        "id": 4,
+        "category": "Elitebook",
+        "name": "Will Smith",
+        "product": "HP Elite G450",
+        "brand": "HP",
+        "review": "4.1 out of 5.00",
+        "comment": "This HP Elite G450 is now my daily driver very satisfied",
+        "img": "https://i.ibb.co/VC9LM5k/will-smith-gty-ps-211101-1635776461000-hp-Main-4x3t-992.jpg"
+    },
+    {
+        "id": 5,
+        "category": "Thinkpad",
+        "name": "Elizabeth Olsen",
+        "product": "Lenovo Thinkpad 2019",
+        "brand": "Lenovo",
+        "review": "4.0 out of 5.00",
+        "comment": "Well, Everything is perfect but the display visibity in outdoor is very poor",
+        "img": "https://i.ibb.co/xHx5Z3b/elizabeth-olsen-calls-out-poor-photoshop.jpg"
+    },
+    {
+        "id": 6,
+        "category": "Macbook",
+        "name": "Leonardo Dicaprio",
+        "product": "Macbook Air M1 Pro 2020",
+        "brand": "Apple",
+        "review": "4.5 out of 5.00",
+        "comment": "Very Satisfied",
+        "img": "https://i.ibb.co/SKd7HHv/American-actor-Leonardo-Di-Caprio-2016.jpg"
+    }
+]
