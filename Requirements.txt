@@ -1,0 +1,35 @@
+ Requirements: (TV Reviewers)
+1. Phone chara j kono akta review site banate hobe
+2. Chobi dite hobe. Button optional. Lorem bad die
+   Emni text dite hobe
+3. Header dite hobe.
+4. Review dekhate hobe. (Card a dekhano jabe)
+   Home page a 3ta review dekhate hobe. All review a click dile reviews a chole jabe
+5. k review diche. ki review diche. koto star diche
+6. 404 route banate hobe.
+7. 6ta commit korte hobe minimum
+8. Dashboard a chart dekhate hobe (pi/bar) agula. 
+   Chart er data github a ache.
+9. Site er name change korte hobe(Title jeta browser a thake)
+10. Readme edit kore live link dite hobe. Site name dite hobe
+    Bullet point a project er 4ta point overview dite hobe
+11. Blogs a 3ta ans likhte hobe:
+    -Context api ki
+    -Simantic tag ki
+    -Inline block/inline elements er difference
+
+Bonus:
+ -Active route
+ - Responsive website
+ - Destructuring korte hobe
+
+# npm install recharts --force
+
+
+
+Menu:
+-Home
+-Reviews
+-Dashboard
+-Blogs
+-About
