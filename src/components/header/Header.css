@@ -1,0 +1,10 @@
+.link-color{
+    color: #f99c2b !important;
+    font-size: 20px;
+}
+.link-color:hover{
+    color: black !important;
+}
+.banner-text h1,h4,p{
+    padding-left: 300px;
+}

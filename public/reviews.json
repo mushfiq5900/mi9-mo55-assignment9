@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "category": "TV",
+        "name": "Abid Ali",
+        "product": "LG 65inch led tv",
+        "review": "4.5 out of 5.00",
+        "comment": "Nice picture Quality",
+        "img": "https://www.lg.com/my/images/tvs/MD05938465/gallery/medium03.jpg"
+    },
+    {
+        "id": 2,
+        "category": "Smart TV",
+        "name": "Mamun Mondol",
+        "product": "Sony X09 smart TV",
+        "review": "5.0 out of 5.00",
+        "comment": "Very good sound and overall quality",
+        "img": "https://www.sony-asia.com/image/916e1ca5c3b64c3947acae853da7ad07?fmt=pjpeg&bgcolor=FFFFFF&bgc=FFFFFF&wid=2515&hei=1320"
+    },
+    {
+        "id": 3,
+        "category": "TV",
+        "name": "Umuk Hasan",
+        "product": "UKH hd tv",
+        "review": "4.0 out of 5.00",
+        "comment": "Awesome stylish look",
+        "img": "https://www.sony-asia.com/image/916e1ca5c3b64c3947acae853da7ad07?fmt=pjpeg&bgcolor=FFFFFF&bgc=FFFFFF&wid=2515&hei=1320"
+    },
+    {
+        "id": 4,
+        "category": "TV",
+        "name": "Tumuk Shah",
+        "product": "G492 HD TV",
+        "review": "3.5 out of 5.00",
+        "comment": "Nice frame design and good image quality",
+        "img": "https://img.etimg.com/thumb/msid-53359182,width-640,resizemode-4,imgsize-217521/brand.jpg"
+    },
+    {
+        "id": 5,
+        "category": "Smart TV",
+        "name": "Nadan Hossain",
+        "product": "TCL Smart TV",
+        "review": "5.0 out of 5.00",
+        "comment": "Everything is perfect including color quality",
+        "img": "https://media.binglee.com.au/f/d/f/9/fdf928a9773960aef0815f1c893d1e9182c6044f_tcl_s615_hero.jpg"
+    },
+    {
+        "id": 6,
+        "category": "TV",
+        "name": "Doridro Kutub",
+        "product": "Nokia HD TV",
+        "review": "4.0 out of 5.00",
+        "comment": "Sooting color and smooth sound",
+        "img": "https://www.nokia.com/shop/sites/default/files/styles/aspect_3_2_560px/public/2021-07/Nokia_Smart_TV_3200B_thumbnail.jpg?itok=5bbkTeN-"
+    }
+]
