@@ -7,20 +7,23 @@
    Home page a 3ta review dekhate hobe. All review a click dile reviews a chole jabe
 5. k review diche. ki review diche. koto star diche
 6. 404 route banate hobe.
-7. 6ta commit korte hobe minimum
-8. Dashboard a chart dekhate hobe (pi/bar) agula. 
+#7. 6ta commit korte hobe minimum
+#8. Dashboard a chart dekhate hobe (pi/bar) agula. 
    Chart er data github a ache.
-9. Site er name change korte hobe(Title jeta browser a thake)
+#9. Site er name change korte hobe(Title jeta browser a thake)
+
 10. Readme edit kore live link dite hobe. Site name dite hobe
-    Bullet point a project er 4ta point overview dite hobe
-11. Blogs a 3ta ans likhte hobe:
+
+11. Bullet point a project er 4ta point overview dite hobe
+
+#12. Blogs a 3ta ans likhte hobe:
     -Context api ki
     -Simantic tag ki
     -Inline block/inline elements er difference
 
 Bonus:
  -Active route
- - Responsive website
+ #- Responsive website
  - Destructuring korte hobe
 
 # npm install recharts --force
