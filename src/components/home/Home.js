@@ -1,9 +1,17 @@
 import React, { useEffect, useState } from 'react';
+import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import ReviewEach from '../reviews/review_each/ReviewEach';
 import './Home.css'
 
 const Home = () => {
-
+    const [reviews, setReviews] = useState([])
+    useEffect(() => {
+        fetch('reviews.json')
+            .then(response => response.json())
+            .then(data => setReviews(data))
+    }, [])
+    const threeReview = reviews.slice(0, 3)
     return (
         <div>
             <div className='row align-items-center'>
@@ -16,7 +24,18 @@ const Home = () => {
                     <img src={require('./images.jpg')} height={500} width={800} alt="" />
                 </div>
             </div>
+            <div className="row">
+                <div className='col-lg-4 m-auto'>
+                    <h1 className='text-center my-5'>Here are the top Reviews</h1>
+                    {
+                        threeReview.map(review => <ReviewEach key={review.id} review={review}></ReviewEach>)
+                    }
+                </div>
+            </div>
+            <div className='text-center'>
+                <Link className="link-color" to="/reviews"><Button>See All Reviews</Button></Link>
 
+            </div>
         </div>
     );
 };

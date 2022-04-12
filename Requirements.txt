@@ -5,8 +5,8 @@
 #3. Header dite hobe.
 4. Review dekhate hobe. (Card a dekhano jabe)
    Home page a 3ta review dekhate hobe. All review a click dile reviews a chole jabe
-5. k review diche. ki review diche. koto star diche
-6. 404 route banate hobe.
+#5. k review diche. ki review diche. koto star diche
+#6. 404 route banate hobe.
 #7. 6ta commit korte hobe minimum
 #8. Dashboard a chart dekhate hobe (pi/bar) agula. 
    Chart er data github a ache.
@@ -24,7 +24,7 @@
 Bonus:
  -Active route
  #- Responsive website
- - Destructuring korte hobe
+ #- Destructuring korte hobe
 
 # npm install recharts --force
 
