@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Line, LineChart,XAxis, YAxis } from 'recharts';
+import { Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
 
 const ChartOne = () => {
     const [graphData, setGraphData] = useState([])
@@ -12,10 +12,11 @@ const ChartOne = () => {
     return (
         <div>
             <LineChart width={600} height={600} data={graphData}>
-                <Line dataKey={'sell'}></Line>
+                <Line dataKey={'tv-sell'}></Line>
                 <Line dataKey={'revenue'}></Line>
                 <XAxis dataKey='month'></XAxis>
                 <YAxis dataKey='revenue'></YAxis>
+                <Tooltip />
             </LineChart>
         </div>
     );

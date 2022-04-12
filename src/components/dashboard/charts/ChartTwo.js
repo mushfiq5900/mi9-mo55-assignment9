@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {Pie, PieChart, Tooltip} from 'recharts';
+import { Pie, PieChart, Tooltip } from 'recharts';
 const ChartTwo = () => {
     const [graphData, setGraphData] = useState([])
     useEffect(() => {
@@ -11,10 +11,10 @@ const ChartTwo = () => {
     return (
         <div>
             <PieChart width={600} height={600}>
-            <Pie data={graphData} dataKey="revenue" nameKey="sell" cx="50%" cy="50%" outerRadius={250} fill="#8884d8" />
-            <Pie data={graphData} dataKey="investment" nameKey="sell" cx="50%" cy="50%" outerRadius={100} fill="#dddd"/>
-            <Tooltip/>
-        </PieChart>
+                <Pie data={graphData} dataKey="revenue" nameKey="tv-sell" cx="50%" cy="50%" outerRadius={300} fill="#8884d8" />
+                <Pie data={graphData} dataKey="investment" nameKey="tv-sell" cx="50%" cy="50%" innerRadius={100} fill="#dddd" />
+                <Tooltip />
+            </PieChart>
         </div>
     );
 };

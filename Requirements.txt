@@ -14,7 +14,7 @@
 
 10. Readme edit kore live link dite hobe. Site name dite hobe
 
-11. Bullet point a project er 4ta point overview dite hobe
+#11. Bullet point a project er 4ta point overview dite hobe
 
 #12. Blogs a 3ta ans likhte hobe:
     -Context api ki

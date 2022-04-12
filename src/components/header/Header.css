@@ -1,7 +1,10 @@
-.link-color{
+.link-color {
     color: #f99c2b !important;
     font-size: 20px;
+    text-decoration: none;
+    padding: 20px
 }
-.link-color:hover{
+
+.link-color:hover {
     color: black !important;
 }
