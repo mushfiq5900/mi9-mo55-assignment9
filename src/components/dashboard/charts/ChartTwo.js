@@ -9,12 +9,15 @@ const ChartTwo = () => {
     }, [])
     console.log(graphData)
     return (
-        <div>
-            <PieChart width={600} height={600}>
-                <Pie data={graphData} dataKey="revenue" nameKey="tv-sell" cx="50%" cy="50%" outerRadius={300} fill="#8884d8" />
-                <Pie data={graphData} dataKey="investment" nameKey="tv-sell" cx="50%" cy="50%" innerRadius={100} fill="#dddd" />
-                <Tooltip />
-            </PieChart>
+        <div className='row'>
+            <div className="col-lg-6 col-md-6 col-sm-12 p-5">
+                <h1 className='text-center my-5'>Sell and reviews</h1>
+                <PieChart width={400} height={400}>
+                    <Pie data={graphData} dataKey="revenue" nameKey="tv-sell" cx="50%" cy="50%" outerRadius={200} fill="#8884d8" />
+                    <Pie data={graphData} dataKey="investment" nameKey="tv-sell" cx="50%" cy="50%" innerRadius={100} fill="#dddd" />
+                    <Tooltip />
+                </PieChart>
+            </div>
         </div>
     );
 };

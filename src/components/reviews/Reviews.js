@@ -9,7 +9,7 @@ const Reviews = () => {
     return (
         <div className="container-fluid">
             <h1 className='text-center text-warning my-5'>Here are the all Reviews</h1>
-            <div className="row p-5">
+            <div className="row">
                 {
                     reviews.map(review => <ReviewEach key={review.id} review={review}></ReviewEach>)
                 }

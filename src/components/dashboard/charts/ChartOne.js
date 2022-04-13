@@ -10,14 +10,17 @@ const ChartOne = () => {
     }, [])
     console.log(graphData)
     return (
-        <div>
-            <LineChart width={600} height={600} data={graphData}>
-                <Line dataKey={'tv-sell'}></Line>
-                <Line dataKey={'revenue'}></Line>
-                <XAxis dataKey='month'></XAxis>
-                <YAxis dataKey='revenue'></YAxis>
-                <Tooltip />
-            </LineChart>
+        <div className='row'>
+            <div className="col-lg-6 col-md-6 col-sm-12 p-5">
+                <h1 className='text-center my-5'>Monthly reviews</h1>
+                <LineChart width={400} height={400} data={graphData}>
+                    <Line dataKey={'tv-sell'}></Line>
+                    <Line dataKey={'revenue'}></Line>
+                    <XAxis dataKey='month'></XAxis>
+                    <YAxis dataKey='revenue'></YAxis>
+                    <Tooltip />
+                </LineChart>
+            </div>
         </div>
     );
 };
