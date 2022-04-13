@@ -3,7 +3,7 @@
 #2. Chobi dite hobe. Button optional. Lorem bad die
    Emni text dite hobe
 #3. Header dite hobe.
-4. Review dekhate hobe. (Card a dekhano jabe)
+#4. Review dekhate hobe. (Card a dekhano jabe)
    Home page a 3ta review dekhate hobe. All review a click dile reviews a chole jabe
 #5. k review diche. ki review diche. koto star diche
 #6. 404 route banate hobe.
@@ -27,12 +27,3 @@ Bonus:
  #- Destructuring korte hobe
 
 # npm install recharts --force
-
-
-
-Menu:
--Home
--Reviews
--Dashboard
--Blogs
--About

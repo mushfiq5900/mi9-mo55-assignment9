@@ -11,6 +11,7 @@ const Dashboard = () => {
     }, [])
     return (
         <div className='row'>
+            <h1 className='text-center py-5 text-warning'>Dashboard Status</h1>
             <div className="col-lg-6 col-md-6 col-sm-12 p-5">
                 <ChartTwo></ChartTwo>
             </div>

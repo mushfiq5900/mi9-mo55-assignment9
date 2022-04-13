@@ -1,20 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import ReviewEach from './review_each/ReviewEach';
 import './Reviews.css'
-import Home from '../home/Home';
+import useReviews from '../../hooks/useReviews';
 
 const Reviews = () => {
-    const [reviews, setReviews] = useState([])
-    useEffect(() => {
-        fetch('reviews.json')
-            .then(response => response.json())
-            .then(data => setReviews(data))
-    }, [])
+    const [reviews, setReviews] = useReviews();
     console.log(reviews.length)
     return (
-        <div className="row">
-            <div className='col-lg-4 m-auto'>
-                <h1 className='text-center my-5'>Here are the all Reviews</h1>
+        <div className="container-fluid">
+            <h1 className='text-center text-warning my-5'>Here are the all Reviews</h1>
+            <div className="row p-5">
                 {
                     reviews.map(review => <ReviewEach key={review.id} review={review}></ReviewEach>)
                 }

@@ -2,6 +2,7 @@ import React from 'react';
 const Blogs = () => {
     return (
         <div className="row">
+            <h1 className='text-warning text-center p-5'>Read the articles to know more about react</h1>
             <div className="col-lg-4 col-md-6 col-sm-12 p-5">
                 <h1>What is Context API?</h1>
                 <p>In React, the context API is a method for React application functionally generate Global variables that can be passed around. This is an alternative to “Prop drilling” or shifting props to grandparent to child parent etc. This is an easier and lighter approach to state management.</p>

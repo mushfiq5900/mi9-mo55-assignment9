@@ -7,11 +7,11 @@ const Header = () => {
         <div>
             <div className='row'>
                 <Nav className="justify-content-center bg-light" activeKey="/home">
-                        <Link className="link-color" to="/">Home</Link>
-                        <Link className="link-color" to='/reviews'>Reviews</Link>
-                        <Link className="link-color" to="/dashboard">Dashboard</Link>
-                        <Link className="link-color" to="blogs">Blogs</Link>
-                        <Link className="link-color" to="*">About</Link>
+                        <Link className="link-color btn-warning text-white" to="/">Home</Link>
+                        <Link className="link-color btn-warning text-white" to='/reviews'>Reviews</Link>
+                        <Link className="link-color btn-warning text-white" to="/dashboard">Dashboard</Link>
+                        <Link className="link-color btn-warning text-white" to="blogs">Blogs</Link>
+                        <Link className="link-color btn-warning text-white" to="*">About</Link>
                 </Nav>
             </div>
         </div>
