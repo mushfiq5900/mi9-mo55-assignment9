@@ -6,6 +6,6 @@
 - One can check the rating along with the detail comments here.
 - If someone want to see all reviews of TV brands this site will help him/her also.
 
-### Live Link:
+### Live Link (Netlify):
 
-Netlify: [http://localhost:3000](http://localhost:3000)
+Netlify: [https://aesthetic-malasada-a89a27.netlify.app/](https://aesthetic-malasada-a89a27.netlify.app/)
